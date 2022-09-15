@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
+  color: grey;
 }
 
 html,
@@ -10,3 +11,52 @@ body {
 }
 
 /* Add styles here! */
+
+header {
+  height: 40%;
+  padding-left: 50px;
+  padding-top: 50px;
+  border-bottom: solid 5px rgb(83, 83, 83);
+  max-width: 300px;
+}
+
+main {
+  background-color: grey;
+  height: 60%;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+.intro-chunk {
+  max-width: 300px;
+}
+
+header p {
+  padding-bottom: 20px;
+}
+
+.title {
+  margin-bottom: 40px;
+}
+
+.intro-chunk p strong {
+  color: rgb(120, 175, 115)
+}
+
+.card {
+  background-color: white;
+  max-width: 35%;
+  padding: 20px;
+  padding-top: 10px;
+  margin-top: 60px;
+}
+
+.indented-heading {
+  margin: 0;
+  background-color: orange;
+  min-width: 70%;
+  max-width: 80%;
+  padding: 10px 40px;
+  border-bottom: 4px solid rgb(150, 99, 4);
+  margin-left: -40px;
+}
